@@ -1,0 +1,41 @@
+/*HERO SECTION*/
+#about-hero {
+    background-image: url("https://static01.nyt.com/images/2016/02/28/travel/28HEADS1SUB/28HEADS1SUB-facebookJumbo.jpg");
+    background-size: auto;
+    height: 200px;
+    width: 200%;
+    float: left;
+}
+
+#about-hero~h1 {
+    width: 20%;
+    float: right;
+    margin-top: 8%;
+    
+}
+
+/*COLUMN STYLES*/
+#col-1 {
+    clear: both;
+}
+
+button {
+    background-color: #000;
+    font-size: 20px;
+    color: #9bc300;
+    border: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #9bc300;
+    color: #000;
+}
+
+
+video {
+    width: 600px;
+    height: 400px;
+}

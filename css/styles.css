@@ -1,0 +1,206 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300i,400,900|Supermercado+One');
+
+/*UNIVERSALS*/
+* {
+    box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'supermercado One', cursive;
+}
+
+p, a {
+    font-family: 'lato', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* header styles */
+header {
+    position: relative;
+}
+
+#logo-image {
+    height: 150px;
+    display: inline-block;
+}
+
+nav {
+   display: inline-block;
+   width: 550px;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   margin-bottom: 0px;
+  }
+
+nav ul{
+    float: right;
+    width: 300px;
+    margin-bottom: 0px;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 20.9px;
+    padding: 5%;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    top: 43px;
+}
+
+#home-link {
+    background-color: #9bc300;
+    color: #000000;
+}
+
+#about-link {
+    background-color: #000000;
+    color: #9bc300;
+}
+
+#contact-link {
+    background-color: #9bc300;
+    color: #000000;
+}
+
+/*hero section begins*/
+#hero {
+    height: 300px;
+    background-image: url('../img/drums1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h2 {
+    font-size: 52px;
+    color: #9bc300;
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+/*Sidebar Selection Begins*/
+aside {
+    height: 300px;
+    background-color: #484848;
+    border: 1px solid #000;
+    width: 30%;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic; 
+    float: left;
+}
+
+#artist-links {
+    height: 100%;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+#artist-links a {
+    display: block;
+    height: 25%;
+}
+
+#artist-links li {
+    border: 2px double #000000;
+    color: #000000;
+    height: 100%
+}
+
+#artist-links li:hover {
+    border-style: double;
+    font-weight: 900;
+    color: 	#000000;
+    background-color: #ccff33;
+}
+ 
+/*Main Section Begins*/
+main {
+    float: left;
+    width: 70%;
+    height: 300px;
+    overflow: auto;
+}
+
+main h1{
+    letter-spacing: 10px;
+}
+
+#main-text {
+    font-size: 100%;
+    line-height: 20px;
+    padding: 0px 18px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #000;
+    clear: left;
+    padding: 24px 0px;
+}
+
+.fa-youtube-square {
+    color: #FF0000;
+    margin: 5px 10px;
+}
+
+.fa-instagram {
+    color: #A6009C;
+    margin: 5px 10px;
+}
+    
+.fa-facebook-square {
+    color: #000099;
+    margin: 5px 10px;
+}
+
+#copyright {
+    color: #9bc300;
+}
+
+#map-wrapper {
+    height: 300px;
+    background-color: #9bc300;
+}
+
+#contact-form-wrapper iframe {
+    width: 60%;
+    float: left;
+    background-color: #9bc300;
+}
+
+#contact-form-wrapper h1 {
+    width: 30%;
+    float: right;
+    margin-top: 18%;
+}
+
+#map-wrapper {
+    clear: both;
+}
+
+#map-wrapper address {
+    width: 30%;
+    float: left;
+    font-size: 32px;
+}
+
+#map-wrapper iframe {
+    float: right;
+    width: 533px;
+    height: 300px;
+}
+
+
